@@ -28,7 +28,7 @@ Left ctrl + C
 
 Changelog:
 - Mouse cursor on/off alternative state is now saved (also for MP)]]>
-		</en>
+	</en>
         <de>
 		<![CDATA[Click to switch - Einfach auf ein Fahrzeug klicken zum Einsteigen!
 
@@ -50,7 +50,29 @@ Steuerung links + C
 
 Changelog:
 - Mauszeiger an/aus alternative Belegung wird jetzt gespeichert (auch im MP)]]>
-		</de>
+	</de>
+        <it>
+		<![CDATA[Click to Switch - Basta fare clic su un veicolo per accedervi!
+
+Un modo più rapido per passare da un veicolo a un altro, che puoi vedere dalla tua posizione attuale, piuttosto che scorrere i tuoi veicoli con un tasto di scelta rapida. Con miglioramenti per veicoli caricatore frontale e altri.
+
+Associazione predefinita dei tasti:
+
+Attivazione/disattivazione del cursore del mouse:
+Clic destro del mouse
+
+Sali sul veicolo:
+Clic sinistro del mouse
+
+Combinazione di tasti alternativi per il cursore del mouse:
+Ctrl destro + C
+
+Assegnazione alternativa del puntatore del mouse on/off:
+Ctrl sinistro + C
+
+Changelog:
+- Lo stato alternativo di attivazione/disattivazione del cursore del mouse è ora salvato (anche per MP)]]>
+	</it>
     </description>
 
     <iconFilename>icon_clicktoswitch.dds</iconFilename>
@@ -87,10 +109,26 @@ Changelog:
 	</actions>
 
 	<l10n>	
-		<text name="input_CLICK_TO_SWITCH_TOGGLE_MOUSE"><de>CTS: Mauszeiger an/aus</de><en>CTS: Mouse cursor on/off</en></text>	
-        <text name="input_CLICK_TO_SWITCH_TOGGLE_MOUSE_ALTERNATIVE"><de>CTS: Mauszeiger an/aus alternative</de><en>CTS: Mouse cursor on/off alternative</en></text>
-		<text name="input_CLICK_TO_SWITCH_CHANGES_ASSIGNMENTS"><de>CTS: Ändert die Belegung</de><en>CTS: Changes assignments</en></text>
-		<text name="input_CLICK_TO_SWITCH_ENTER_VEHICLE"><de>CTS: In Fahrzeug einsteigen</de><en>CTS: Try to enter vehicle</en></text>
+		<text name="input_CLICK_TO_SWITCH_TOGGLE_MOUSE">
+			<de>CTS: Mauszeiger an/aus</de>
+			<en>CTS: Mouse cursor on/off</en>
+			<it>CTS: Cursore del mouse on/off</it>
+		</text>	
+        	<text name="input_CLICK_TO_SWITCH_TOGGLE_MOUSE_ALTERNATIVE">
+			<de>CTS: Mauszeiger an/aus alternative</de>
+			<en>CTS: Mouse cursor on/off alternative</en>
+			<it>CTS: Cursore del mouse tasti alternativi on/off</it>
+		</text>
+		<text name="input_CLICK_TO_SWITCH_CHANGES_ASSIGNMENTS">
+			<de>CTS: Ändert die Belegung</de>
+			<en>CTS: Changes assignments</en>
+			<it>CTS: Cambia Assegnazione</it>
+		</text>
+		<text name="input_CLICK_TO_SWITCH_ENTER_VEHICLE">
+			<de>CTS: In Fahrzeug einsteigen</de>
+			<en>CTS: Try to enter vehicle</en>
+			<it>CTS: Prova a entrare nel veicolo</it>
+		</text>
 	</l10n>
 
 </modDesc>
